@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    padding-left: calc(50% - 1140px/2);
+    padding-right: calc(50% - 1140px/2);
+}
+
+.main__header {
+    /* height: 75px; */
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 859px;
+}
+
+.main__header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 41px;
+}
+
+.icon1 {
+    padding-top: 18px;
+    padding-bottom: 19px;
+    ;
+}
