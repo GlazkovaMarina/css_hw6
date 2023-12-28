@@ -81,3 +81,26 @@
 .pink__colored {
     color: #F16D7F;
 }
+
+.page2 {
+    background: #FFF;
+    padding-top: 65px;
+    padding-bottom: 96px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 260px 180px;
+    gap: 30px;
+}
+
+.offer__card {
+    position: relative;
+    background: rgba(33, 22, 22, 0.70);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.big__card {
+    grid-column: 1/4;
+}
