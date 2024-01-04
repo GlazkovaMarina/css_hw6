@@ -216,6 +216,9 @@
         padding-left: calc(50% - 734px/2);
         padding-right: calc(50% - 734px/2);
     }
+    .page1__content {
+        margin-bottom: 0px;
+    }
     .page1__title__start {
         font-size: 44px;
     }
