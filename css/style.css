@@ -83,28 +83,32 @@
     padding-bottom: 96px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 260px 180px;
     gap: 30px;
 }
 
 .offer__card {
     position: relative;
-}
-
-.sale__content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    background: rgba(33, 22, 22, 0.70);
     display: flex;
-    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
 
+.sale__content {
+    position: absolute;
+    text-align: center;
+}
+
 .big__card {
-    grid-column: 1/4;
-    min-height: 180px;
+    grid-column: 1/span 3;
+}
+
+.offer__card__img {
+    width: 100%;
+    position: inherit;
+    z-index: -1;
 }
 
 .page2__h3 {
