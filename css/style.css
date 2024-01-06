@@ -107,6 +107,12 @@
     z-index: -1;
 }
 
+.offer__big__card__img {
+    width: 100%;
+    position: inherit;
+    z-index: -1;
+}
+
 .page2__h3 {
     font-weight: 700;
     font-size: 24px;
@@ -362,6 +368,16 @@
         padding-top: 64px;
         gap: 32px;
         padding-bottom: 64px;
+    }
+    .big__card__photo {
+        height: 111px;
+        overflow: hidden;
+        position: inherit;
+        z-index: -1;
+    }
+    .offer__big__card__img {
+        width: 210%;
+        margin: 0 0 0 -190px;
     }
     .page3__product {
         padding-bottom: 40.61px;
